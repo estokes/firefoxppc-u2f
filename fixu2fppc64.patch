@@ -159,3 +159,17 @@ index 0371d3a..5b7e358 100644
  
  [patch.crates-io.cranelift-codegen]
  git = "https://github.com/CraneStation/Cranelift"
+diff --git a/third_party/rust/bindgen/Cargo.toml b/third_party/rust/bindgen/Cargo.toml
+index e60f466..e0049e5 100644
+--- a/third_party/rust/bindgen/Cargo.toml
++++ b/third_party/rust/bindgen/Cargo.toml
+@@ -95,7 +95,7 @@ version = "0.1"
+ version = "0.1"
+ 
+ [features]
+-default = ["logging", "clap", "which-rustfmt"]
++default = ["logging", "clap"]
+ logging = ["env_logger", "log"]
+ static = []
+ testing_only_docs = []
+
