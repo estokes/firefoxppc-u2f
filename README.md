@@ -1,3 +1,5 @@
+# As of firefox 76 this patch is finally upstreamed
+
 # firefoxppc-u2f
 A patch to fix u2f keys on firefox running on PPC64le
 
